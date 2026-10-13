@@ -94,12 +94,34 @@ Casi todas tienen tina de hidromasaje doble, cafetera, batas y pantuflas, dispen
 ## Salud y accesibilidad
 - Servicio médico 24 horas, todos los días, con costo adicional. Si hace falta especialista u hospital, el personal lo canaliza.
 - Instalaciones accesibles en silla de ruedas: albercas, restaurantes, jardines, antros y bares.
-- Hospitales con urgencias 24 horas en Cancún (información de sus sitios oficiales): Hospiten Cancún (998 881 3700), Hospital Amerimed Cancún (998 881 3400) y Hospital Galenia (998 891 5200). No des distancias.
+- Hospitales con urgencias las 24 horas en Cancún (sus sitios oficiales, consultados el 13-oct-2026), todos en el centro de la ciudad, aproximadamente a 20 o 25 kilómetros en auto:
+  - Hospital Galenia: avenida Tulum esquina Nizuc. 998 891 5200. Urgencias 24 horas los 365 días; tiene ambulancia (998 222 4363). Trabaja con aseguradoras internacionales como BUPA, Universal Assistance, Sagicor y Corvel, y nacionales como AXA, GNP, MetLife y Allianz.
+  - Hospiten Cancún: avenida Bonampak. 998 881 3700. Urgencias 24 horas; coordina seguros de pacientes internacionales.
+  - Hospital Amerimed Cancún: avenida Tulum Sur. 998 881 3400. Urgencias 24 horas, personal bilingüe.
+- En una emergencia, primero el 911 y avisar al personal del hotel; el servicio médico del resort canaliza al hospital.
+- Farmacias, tiendas de conveniencia y cajeros cercanos al resort: no están confirmados en fuentes oficiales. Si preguntan, que pregunten en recepción o al concierge, que conocen los más cercanos y si hay algo dentro del resort.
 
 ## Fuera del resort
-- Coco Bongo Cancún: espectáculo nocturno muy conocido, en la Zona Hotelera (Blvd. Kukulcán km 9.5); solo mayores de 18 con identificación.
+- Coco Bongo Cancún (cocobongo.com, consultado el 13-oct-2026): espectáculo nocturno en la Zona Hotelera, bulevar Kukulcán kilómetro 9.5, Plaza Forum by the Sea. Solo mayores de 18 con identificación oficial. Código de vestir casual elegante (nada de sandalias de playa ni ropa de baño).
+  - La noche va de las 9 de la noche a las 3 de la mañana; recomiendan llegar entre las 10 y las 10 y media.
+  - Precios en dólares, cambian según el día (consultados para la semana del 14 al 19 de octubre de 2026): Drink Pack desde 70 dólares (cinco bebidas nacionales); Regular desde 90 dólares (bebidas nacionales ilimitadas; en viernes 125); Premium desde 125 dólares (bebidas premium); Gold Member desde 160 dólares (zona VIP); Front Row desde 195 dólares (zona VIP, al frente). Siempre "desde" y con la fecha de consulta; el precio exacto del día está en cocobongo.com.
+  - Se compra en línea en cocobongo.com o en taquilla; mesas VIP por WhatsApp al +52 998 126 9260. No es reembolsable; se puede cambiar la fecha hasta 48 horas antes.
 - Restaurantes famosos de la Zona Hotelera: Harry's (cortes y mariscos), Lorenzillo's (mariscos). En el centro: La Habichuela.
-- Para ir: taxi desde recepción. No des distancias ni tiempos.
+- Marina Puerto Cancún (su sitio oficial): plaza en la entrada de la Zona Hotelera, abierta diario de 11 de la mañana a 9 de la noche; tiene sucursales de Banorte y BBVA y una farmacia.
+- Distancias aproximadas desde el resort, siempre como aproximadas y sin dar minutos: aeropuerto de Cancún, unos 10 kilómetros; Puerto Morelos, unos 18; centro de Cancún, unos 22; Zona Hotelera a la altura de Coco Bongo, unos 30 a 35.
+- Para ir: taxi seguro desde recepción.
+
+## La historia de Moon Palace (sitio oficial de The Palace Company, consultado el 13-oct-2026)
+- Empieza con un viaje: una familia de comerciantes de origen libanés llega a la península de Yucatán. El ingeniero José Chapur, fundador, recorre la región y descubre sus paisajes.
+- En los años setenta nace el sueño: José Chapur construye un edificio de departamentos en Cancún y después entra a la administración de hoteles.
+- 1984: abre su primer hotel, Beach Palace, en Cancún; ahí nace la empresa. Siguen Cancun Palace en 1988 y Sun Palace en 1990.
+- 1996: nace Moon Palace.
+- En los años noventa hubo tiempos difíciles; de ahí aprendieron la resiliencia y la lealtad, valores que los definen hasta hoy.
+- Después llegan Le Blanc Spa Resort Cancún, Playacar Palace, Cozumel Palace, Moon Palace The Grand en Cancún, Moon Palace Jamaica y Le Blanc Los Cabos. Siguen siendo una empresa 100% familiar.
+- 2005: tras el huracán Wilma nace la Fundación Palace, para ayudar a las comunidades donde están sus hoteles.
+- Hoy son una familia de más de 14,000 colaboradores; llegaron a Europa con Baglioni Hotels & Resorts y en 2025 abrieron Moon Palace The Grand en Punta Cana.
+- Hecho en casa ("Made by Palace", sitio de Moon Palace): el 98% de sus ingredientes se preparan desde cero en su propio centro de distribución en Cancún, de las hamburguesas y los chocolates pintados a mano al helado, el guacamole y el puré para bebé hecho al momento. El clavel de bienvenida y la Villa de Navidad también son diseño propio. Tienen escuelas propias de bartenders y baristas y una cocina de pruebas. Convierten los restos de cocina en composta que alimenta huertos de microgreens que vuelven a sus cocinas.
+- Su misión, en sus palabras: crear experiencias memorables que hagan cada día más brillante. Atienden como les gustaría que atendieran a su propia familia.
 
 ## Ofertas vigentes (según el sitio al 12-oct-2026)
 - Resort Deals: hasta 35% de descuento, 250 dólares de Resort Credit, vino de bienvenida y niños gratis; se reserva hasta el 31 de octubre de 2026. Para condiciones exactas, que lo confirme con el hotel.
