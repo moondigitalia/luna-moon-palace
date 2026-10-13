@@ -17,10 +17,14 @@ export default {
   silencioColgar: 40,
   avatar: { tipo: 'orbe' },              // pieza enchufable: { tipo: 'capas', base, boca0..boca3, parpadeo } cuando exista el dibujo
   colores: {
-    marca: '#102137', marcaHondo: '#1d4fae', luz: '#6fb6ff', luzFria: '#f4f8ff',
-    dock: '#eef1f6', dockBoton: '#e1e6ee', dockTinta: '#102137',
-    llamar: 'linear-gradient(160deg,#4a86ff 0%,#1d4fae 100%)', colgar: 'linear-gradient(160deg,#ff8f5e 0%,#e5484d 100%)',
+    fondo: '#f2f4f7', boton: '#e6e9ee', icono: '#3a4658', tintaDia: '#0f2a5a',
+    dia: ['#8fd6ff', '#3e9bf0', '#2563dc', '#1a3fae'],          // celeste que baja a azul profundo
+    noche: ['#5f86d8', '#2a4fb0', '#16267a', '#0d1650'],        // la misma almohada, de noche
+    orbe: ['#bff2ff', '#46b8ff', '#2349d6'],
+    avatarVacio: '#c7d6ee',
+    llamar: 'linear-gradient(160deg,#4a8cff 0%,#1f4fd0 100%)', colgar: 'linear-gradient(160deg,#ff9a62 0%,#ef4b4b 100%)',
   },
+
   // Tarjetas eco: suben cuando Luna nombra el lugar. `nombres` = otras formas en que se dice.
   tarjetas: [
     { id: 'trattoria', titulo: 'La Trattoria', nombres: ['trattoria'], tono: '#1f3a6e',
@@ -87,7 +91,7 @@ export default {
       holaVoz: 'Bienvenido a Moon Palace Cancún. Soy Luna, su concierge. ¿Con quién tengo el gusto?',
       holaNombre: (n) => `${n}, qué gusto escucharle. ¿En qué puedo servirle?`,
       sugerencias: ['Una cena romántica', '¿Qué hay para niños?', 'Cuéntame su historia'],
-      canales: ['Texto', 'Llamada', 'Avatar'], conectando: 'Conectando',
+      conectando: 'Conectando…', avatar: 'Hablar con el avatar', verLuz: 'Ver la luz',
       escribe: 'Escriba su pregunta', enviar: 'Enviar', llamar: 'Llamar a Luna', colgar: 'Terminar llamada', idioma: 'Cambiar idioma',
       micApagar: 'Silenciar micrófono', micPrender: 'Activar micrófono', cerrar: 'Cerrar', masDe: 'Saber más',
       error: 'Se perdió la señal un momento. ¿Me lo repite, por favor?', micNo: 'Para hablar con Luna se necesita el micrófono. Mientras, aquí puede escribirle.',
@@ -99,7 +103,7 @@ export default {
       holaVoz: 'Welcome to Moon Palace Cancún. I’m Luna, your concierge. Who do I have the pleasure of speaking with?',
       holaNombre: (n) => `${n}, lovely to hear from you. How may I help?`,
       sugerencias: ['A romantic dinner', 'What is there for kids?', 'Tell me your story'],
-      canales: ['Text', 'Call', 'Avatar'], conectando: 'Connecting',
+      conectando: 'Connecting…', avatar: 'Talk to the avatar', verLuz: 'Show the light',
       escribe: 'Type your question', enviar: 'Send', llamar: 'Call Luna', colgar: 'End call', idioma: 'Change language',
       micApagar: 'Mute microphone', micPrender: 'Unmute microphone', cerrar: 'Close', masDe: 'Learn more',
       error: 'The signal dropped for a moment. Could you say that again, please?', micNo: 'Luna needs your microphone to talk. Meanwhile, you can type here.',
