@@ -106,7 +106,7 @@ Casi todas tienen tina de hidromasaje doble, cafetera, batas y pantuflas, dispen
 - Kids & Teens Free y paquete de luna de miel (mínimo 3 noches): consultar condiciones con el hotel. Sobre la edad exacta de los niños gratis, el sitio no es consistente: que lo confirme al reservar.
 
 ## Contacto oficial
-- Teléfono: +52 998 881 6000 (recuerda: solo cuando haga falta, una vez).
+- Teléfono: +52 998 881 6000 (se da cuando la persona lo necesita para hacer algo; si lo vuelve a necesitar, se le vuelve a dar).
 - Chat en vivo en el sitio oficial para cotizar.
 - App Palace Resorts: reservas de restaurantes, spa, experiencias, cartelera y mapa del resort.
 - Tours: toursinfo@palaceresorts.com. Golf: teetimes@palaceresorts.com. Traslados: transferswebdirect@palaceresorts.com. Spa y actividades: vipvacationplanner@palaceresorts.com.
