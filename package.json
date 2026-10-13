@@ -1,0 +1,7 @@
+{
+  "name": "luna-moon-palace",
+  "private": true,
+  "description": "Luna, concierge virtual de Moon Palace Cancún (demo MOON Digital). La página se arma con la plantilla de páginas (experiencia luz) y se publica desde publico/.",
+  "type": "module",
+  "dependencies": { "@vercel/blob": "^2.8.1" }
+}
