@@ -1,0 +1,165 @@
+<title>Luna · Tres caminos</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Cormorant+Garamond:ital,wght@0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap">
+<style>
+/* Hoja de comparación: tres teléfonos lado a lado, cada uno un mundo visual cerrado; la hoja es neutra y sigue el tema. */
+:root{
+  --bg:#f3f4f6; --fg:#14171c; --muted:#5b6370; --line:#d9dce2; --card:#ffffff;
+  --display:"Bodoni Moda", "Didot", Georgia, serif;
+  --body:"DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111317;--fg:#eceef2;--muted:#9aa1ad;--line:#2a2e36;--card:#191c22;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#111317;--fg:#eceef2;--muted:#9aa1ad;--line:#2a2e36;--card:#191c22;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);padding-inline:16px;padding-block:28px 56px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+header h1{font-family:var(--display);font-weight:400;font-size:clamp(28px,4vw,42px);margin:0;text-wrap:balance}
+header p{margin:6px 0 0;color:var(--muted);max-width:62ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px;align-items:start}
+.op{display:flex;flex-direction:column;gap:14px;min-width:0}
+.op h2{margin:0;font-family:var(--display);font-weight:400;font-size:24px}
+.op .letra{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.op p{margin:0;color:var(--muted);font-size:14.5px}
+.sw{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.sw i{width:22px;height:22px;border-radius:50%;border:1px solid var(--line);display:inline-block}
+.nota{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;font-size:14.5px;max-width:80ch}
+.nota b{font-weight:600}
+
+/* ---------- teléfono base ---------- */
+.tel{width:100%;max-width:340px;aspect-ratio:9/18.5;border-radius:34px;overflow:hidden;position:relative;display:flex;flex-direction:column;
+  box-shadow:0 0 0 8px #0d0f13, 0 18px 40px rgba(0,0,0,.18);margin-inline:auto}
+.top{display:flex;justify-content:space-between;align-items:center;padding:20px 20px 0;font-size:11px;letter-spacing:.18em;text-transform:uppercase}
+.esc{display:flex;flex-direction:column;align-items:center;gap:8px;padding:14px 16px 6px}
+.ava{width:112px;height:112px;border-radius:50%;position:relative;display:grid;place-items:center;overflow:hidden}
+.ava svg{width:100%;height:100%}
+.ava small{position:absolute;bottom:12px;font-size:9px;letter-spacing:.12em;text-transform:uppercase;opacity:.75}
+.nom{font-size:13px;letter-spacing:.08em}
+.chat{flex:1;display:flex;flex-direction:column;gap:8px;padding:6px 14px;overflow:hidden;font-size:12.5px;line-height:1.42}
+.b{padding:9px 12px;max-width:86%}
+.yo{align-self:flex-end}
+.chips{display:flex;gap:6px;flex-wrap:wrap;padding:6px 14px}
+.chips span{font-size:11px;padding:6px 10px}
+.pie{display:flex;gap:8px;align-items:center;padding:10px 14px 18px}
+.campo{flex:1;font-size:12px;padding:11px 14px;opacity:.85}
+.llamar{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;flex:none}
+.llamar svg{width:18px;height:18px}
+
+/* ---------- A · Porcelana y medianoche ---------- */
+.a{background:#f5f6f8;color:#102137;font-family:"DM Sans",system-ui,sans-serif}
+.a .top{color:#102137}
+.a .top b{font-family:"Bodoni Moda",Georgia,serif;font-weight:500;letter-spacing:.32em;font-size:12px}
+.a .ava{background:radial-gradient(circle at 50% 42%,#ffffff 0 52%,#e4e7ec 53% 100%);box-shadow:0 0 0 1px #c9ced6,0 0 0 7px #f5f6f8,0 0 0 8px #c9ced6}
+.a .nom{font-family:"Bodoni Moda",Georgia,serif;font-style:italic;font-size:18px;letter-spacing:0}
+.a .nom em{display:block;font-family:"DM Sans",sans-serif;font-style:normal;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6b7686;text-align:center}
+.a .bot{background:#ffffff;border:1px solid #dde1e7;border-radius:2px 14px 14px 14px}
+.a .yo{background:#102137;color:#f5f6f8;border-radius:14px 2px 14px 14px}
+.a .chips span{border:1px solid #102137;border-radius:2px;color:#102137}
+.a .campo{border-bottom:1px solid #102137;padding-inline:2px}
+.a .llamar{background:#102137;color:#f5f6f8}
+
+/* ---------- B · Atardecer en Nizuc ---------- */
+.b-{}
+.bb{background:linear-gradient(180deg,#f7d9c4 0%,#e9c3cf 34%,#b9a7cf 62%,#4a4f7d 100%);color:#2b2340;font-family:"Jost",system-ui,sans-serif}
+.bb .top{color:#2b2340}
+.bb .top b{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;font-size:15px;letter-spacing:.24em}
+.bb .ava{border-radius:56px 56px 18px 18px;width:104px;height:124px;background:linear-gradient(180deg,#fff4ea,#f3d3dc);box-shadow:0 0 0 1px rgba(255,255,255,.7)}
+.bb .nom{font-family:"Cormorant Garamond",Georgia,serif;font-size:22px;font-style:italic;letter-spacing:0}
+.bb .nom em{display:block;font-family:"Jost",sans-serif;font-style:normal;font-size:10px;letter-spacing:.22em;text-transform:uppercase;text-align:center;opacity:.7}
+.bb .bot{background:rgba(255,255,255,.62);backdrop-filter:blur(6px);border-radius:18px 18px 18px 4px}
+.bb .yo{background:#2b2340;color:#fbeee6;border-radius:18px 18px 4px 18px}
+.bb .chips span{background:rgba(255,255,255,.35);border:1px solid rgba(255,255,255,.7);border-radius:999px;color:#fff}
+.bb .campo{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.55);border-radius:999px;color:#fff}
+.bb .llamar{background:#fbeee6;color:#2b2340}
+
+/* ---------- C · Luna llena ---------- */
+.c{background:radial-gradient(120% 60% at 50% 0%,#1d3557 0%,#102137 46%,#0a1626 100%);color:#e8ecf2;font-family:"DM Sans",system-ui,sans-serif}
+.c .top{color:#c7cfda}
+.c .top b{font-family:"Bodoni Moda",Georgia,serif;font-weight:400;letter-spacing:.34em;font-size:12px;color:#e8ecf2}
+.c .ava{background:radial-gradient(circle at 50% 45%,#f1f3f6 0 46%,#c9d1dc 70%,#9aa6b6 100%);box-shadow:0 0 50px 10px rgba(220,228,240,.22)}
+.c .ava small{color:#102137}
+.c .nom{font-family:"Bodoni Moda",Georgia,serif;font-size:19px;letter-spacing:.04em}
+.c .nom em{display:block;font-family:"DM Sans",sans-serif;font-style:normal;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#9fb0c6;text-align:center}
+.c .bot{background:rgba(232,236,242,.08);border:1px solid rgba(232,236,242,.14);border-radius:14px}
+.c .yo{background:#e8ecf2;color:#102137;border-radius:14px}
+.c .chips span{border:1px solid rgba(232,236,242,.35);border-radius:999px;color:#e8ecf2}
+.c .campo{background:rgba(232,236,242,.07);border:1px solid rgba(232,236,242,.18);border-radius:12px}
+.c .llamar{background:#e8ecf2;color:#102137}
+
+@media (prefers-reduced-motion:no-preference){.c .ava{animation:halo 5s ease-in-out infinite}@keyframes halo{50%{box-shadow:0 0 64px 16px rgba(220,228,240,.3)}}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Luna, tres caminos de diseño</h1>
+    <p>Tres maneras de vestir la página de Luna, todas con los colores reales de Moon Palace (su azul marino y su tipografía) y ninguna con el negro y dorado de Xochitl. Los textos del chat son de la prueba real de hoy. Elige una; la cara de Luna se dibuja después, en el estilo que elijas.</p>
+  </header>
+
+  <div class="grid">
+    <!-- A -->
+    <section class="op">
+      <span class="letra">Opción A</span>
+      <div class="tel a" role="img" aria-label="Maqueta de la opción A">
+        <div class="top"><b>MOON PALACE</b><span>ES · EN</span></div>
+        <div class="esc">
+          <div class="ava"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M62 22a30 30 0 1 0 0 56a24 24 0 1 1 0-56z" fill="#102137" opacity=".9"/></svg><small>aquí va Luna</small></div>
+          <div class="nom">Luna<em>Concierge virtual</em></div>
+        </div>
+        <div class="chat">
+          <div class="b bot">Bienvenido a Moon Palace Cancún. ¿En qué puedo servirle hoy?</div>
+          <div class="b yo">¿Cuánto cuesta el Porterhouse?</div>
+          <div class="b bot">2,420 pesos, según el menú publicado al 12 de octubre de 2026. El restaurante confirma el precio vigente.</div>
+        </div>
+        <div class="chips"><span>Cena romántica</span><span>Para niños</span><span>Spa</span></div>
+        <div class="pie"><div class="campo">Escriba su pregunta…</div><div class="llamar" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div></div>
+      </div>
+      <h2>Porcelana y medianoche</h2>
+      <p>Blanco limpio con el azul marino de Moon Palace y letras de revista de lujo. Se siente como la recepción de un gran hotel por la mañana: sereno, caro, sin ruido. Es la más opuesta a Xochitl, que es oscura.</p>
+      <div class="sw"><i style="background:#f5f6f8"></i><i style="background:#102137"></i><i style="background:#c9ced6"></i> blanco, azul Moon Palace, plata</div>
+    </section>
+
+    <!-- B -->
+    <section class="op">
+      <span class="letra">Opción B</span>
+      <div class="tel bb" role="img" aria-label="Maqueta de la opción B">
+        <div class="top"><b>MOON PALACE</b><span>ES · EN</span></div>
+        <div class="esc">
+          <div class="ava"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="58" r="16" fill="#f0b48f" opacity=".85"/><path d="M0 74h100" stroke="#2b2340" stroke-opacity=".25"/></svg><small>aquí va Luna</small></div>
+          <div class="nom">Luna<em>Concierge virtual</em></div>
+        </div>
+        <div class="chat">
+          <div class="b bot">Bienvenido a Moon Palace Cancún. ¿En qué puedo servirle hoy?</div>
+          <div class="b yo">Quiero una cena romántica</div>
+          <div class="b bot">Pier 8 es de mariscos gourmet, elegante y con vista; La Trattoria es italiana, de las más exclusivas. ¿Le cuento de alguna?</div>
+        </div>
+        <div class="chips"><span>Cena romántica</span><span>Para niños</span><span>Spa</span></div>
+        <div class="pie"><div class="campo">Escriba su pregunta…</div><div class="llamar" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div></div>
+      </div>
+      <h2>Atardecer en Nizuc</h2>
+      <p>El cielo del Caribe al caer la tarde: durazno, rosa y lila que bajan al azul de noche. Luna aparece en un arco, como una ventana al mar. Es la más cálida y la más "de vacaciones"; la que más emociona a primera vista.</p>
+      <div class="sw"><i style="background:#f7d9c4"></i><i style="background:#e9c3cf"></i><i style="background:#b9a7cf"></i><i style="background:#2b2340"></i> durazno, rosa, lila, noche</div>
+    </section>
+
+    <!-- C -->
+    <section class="op">
+      <span class="letra">Opción C</span>
+      <div class="tel c" role="img" aria-label="Maqueta de la opción C">
+        <div class="top"><b>MOON PALACE</b><span>ES · EN</span></div>
+        <div class="esc">
+          <div class="ava"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="38" cy="40" r="5" fill="#9aa6b6" opacity=".5"/><circle cx="60" cy="62" r="8" fill="#9aa6b6" opacity=".4"/><circle cx="64" cy="34" r="3" fill="#9aa6b6" opacity=".5"/></svg><small>aquí va Luna</small></div>
+          <div class="nom">Luna<em>Concierge virtual</em></div>
+        </div>
+        <div class="chat">
+          <div class="b bot">Bienvenido a Moon Palace Cancún. ¿En qué puedo servirle hoy?</div>
+          <div class="b yo">¿Tienen canchas de pádel?</div>
+          <div class="b bot">El pádel no aparece en la información del hotel. Tenemos tenis con canchas iluminadas y pickleball. ¿Le interesa alguno?</div>
+        </div>
+        <div class="chips"><span>Cena romántica</span><span>Para niños</span><span>Spa</span></div>
+        <div class="pie"><div class="campo">Escriba su pregunta…</div><div class="llamar" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div></div>
+      </div>
+      <h2>Luna llena</h2>
+      <p>El azul marino exacto de Moon Palace como cielo de noche, y Luna dentro de una luna que brilla suave. Juega con el nombre de la marca y de la asistente. Es oscura como Xochitl, pero azul y plata en vez de negro y dorado.</p>
+      <div class="sw"><i style="background:#102137"></i><i style="background:#1d3557"></i><i style="background:#e8ecf2"></i> azul Moon Palace, azul noche, perla</div>
+    </section>
+  </div>
+
+  <div class="nota"><b>Mi recomendación: A, Porcelana y medianoche.</b> Es la que más se aleja de Xochitl, se ve de lujo sin esfuerzo y usa el azul real de Moon Palace, así que el dueño la reconoce como suya. B es la más emotiva; C la más ingeniosa, pero se parece a Xochitl en lo oscuro. Lo que elijas también decide cómo dibujo la cara de Luna.</div>
+</div>
