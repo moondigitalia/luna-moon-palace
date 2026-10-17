@@ -1,5 +1,5 @@
 {
-  "buildCommand": "",
+  "buildCommand": "node herramientas/candado-probar.mjs luna-moon-palace --llave-propia",
   "outputDirectory": "publico",
   "headers": [
     { "source": "/(.*)", "headers": [
