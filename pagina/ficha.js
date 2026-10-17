@@ -95,7 +95,7 @@ export default {
       sugerencias: ['Una cena romántica', '¿Qué hay para niños?', 'Cuéntame su historia'],
       conectando: 'Conectando…', avatar: 'Hablar con el avatar', verLuz: 'Ver la luz',
       escribe: 'Escriba su pregunta', enviar: 'Enviar', llamar: 'Llamar a Luna', colgar: 'Terminar llamada', idioma: 'Cambiar idioma',
-      micApagar: 'Silenciar micrófono', micPrender: 'Activar micrófono', cerrar: 'Cerrar', masDe: 'Saber más',
+      micApagar: 'Silenciar micrófono', micPrender: 'Activar micrófono', cerrar: 'Cerrar', masDe: 'Saber más', probar: 'Probar', probarListo: 'Reporte enviado',
       error: 'Se perdió la señal un momento. ¿Me lo repite, por favor?', micNo: 'Para hablar con Luna se necesita el micrófono. Mientras, aquí puede escribirle.',
     },
     en: {
@@ -107,7 +107,7 @@ export default {
       sugerencias: ['A romantic dinner', 'What is there for kids?', 'Tell me your story'],
       conectando: 'Connecting…', avatar: 'Talk to the avatar', verLuz: 'Show the light',
       escribe: 'Type your question', enviar: 'Send', llamar: 'Call Luna', colgar: 'End call', idioma: 'Change language',
-      micApagar: 'Mute microphone', micPrender: 'Unmute microphone', cerrar: 'Close', masDe: 'Learn more',
+      micApagar: 'Mute microphone', micPrender: 'Unmute microphone', cerrar: 'Close', masDe: 'Learn more', probar: 'Test', probarListo: 'Report sent',
       error: 'The signal dropped for a moment. Could you say that again, please?', micNo: 'Luna needs your microphone to talk. Meanwhile, you can type here.',
     },
   },

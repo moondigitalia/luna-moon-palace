@@ -8,7 +8,8 @@ const HASH_CLAVE = '8fb66e9e1218ba0243ebef541651cca2bc71659188a91ead92e911519b74
 const MAX = 600 * 1024;
 const conAcceso = async (fn) => { try { return await fn('private'); } catch (e) { if (/access/i.test(String(e && e.message))) return fn('public'); throw e; } };
 const nombreToken = () => Object.keys(process.env).find((k) => k === 'BLOB_READ_WRITE_TOKEN') || Object.keys(process.env).find((k) => /READ_WRITE_TOKEN$/.test(k));
-const clave = (req) => createHash('sha256').update(String(req.query.k || '')).digest('hex') === HASH_CLAVE;
+// cada proyecto con su propia llave (estándar MOON): Luna usa la suya, guardada en Vercel (REPORTES_CLAVE), nunca en el código
+const clave = (req) => (process.env.REPORTES_CLAVE ? String(req.query.k || '') === process.env.REPORTES_CLAVE : createHash('sha256').update(String(req.query.k || '')).digest('hex') === HASH_CLAVE);
 
 export default async function handler(req, res) {
   res.setHeader('Cache-Control', 'no-store');
