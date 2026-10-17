@@ -7,12 +7,18 @@
 //   2. que se pueda escribir en ella de verdad
 //   3. con --llave-propia (todo cliente con su propio proyecto): que tenga SU llave de lectura (REPORTES_CLAVE),
 //      nunca la de la plantilla (estándar MOON: cada proyecto con sus propias llaves)
+//   4. que la página no salga con datos "PENDIENTE:" sin llenar (los deja herramientas/nuevo-cliente.mjs)
 // Uso (vercel.json): "buildCommand": "node herramientas/candado-probar.mjs <marca> [--llave-propia]"
 // Fuera de Vercel (en la máquina) no hace nada: ahí no existen las llaves.
 const marca = process.argv[2] || 'sin-marca';
 const propia = process.argv.includes('--llave-propia');
 if (!process.env.VERCEL) { console.log('candado-probar: fuera de Vercel, no aplica'); process.exit(0); }
 const falla = (m) => { console.error(`✘ CANDADO PROBAR (${marca}): ${m}\n  No se publica: el link se queda con la versión anterior.`); process.exit(1); };
+// nada sale con datos sin llenar: lo que dice "PENDIENTE:" en la ficha viene del formulario de alta del cliente
+{ const { readdirSync, readFileSync, statSync } = await import('node:fs');
+  const todos = (d) => { try { return readdirSync(d).flatMap((f) => { const r = d + '/' + f; return statSync(r).isDirectory() ? todos(r) : [r]; }); } catch (e) { return []; } };
+  const conHueco = todos('publico').filter((f) => /\.(js|html)$/.test(f) && readFileSync(f, 'utf8').includes('PENDIENTE:'));
+  if (conHueco.length) falla('la página trae datos "PENDIENTE:" sin llenar (' + conHueco.join(', ') + '). Se llenan con el formulario de alta del cliente.'); }
 const nt = Object.keys(process.env).find((k) => k === 'BLOB_READ_WRITE_TOKEN') || Object.keys(process.env).find((k) => /READ_WRITE_TOKEN$/.test(k));
 const oidc = !nt && process.env.BLOB_STORE_ID && process.env.VERCEL_OIDC_TOKEN;
 if (!nt && !oidc) falla('el proyecto no tiene base de reportes (Vercel Blob). Crearla y conectarla al proyecto.');
