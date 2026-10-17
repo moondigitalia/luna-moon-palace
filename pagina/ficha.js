@@ -18,9 +18,11 @@ export default {
   avatar: { tipo: 'orbe' },              // pieza enchufable: { tipo: 'capas', base, boca0..boca3, parpadeo } cuando exista el dibujo
   colores: {
     fondo: '#f2f4f7', boton: '#e6e9ee', icono: '#3a4658', tintaDia: '#0f2a5a',
-    dia: ['#8fd6ff', '#3e9bf0', '#2563dc', '#1a3fae'],          // celeste que baja a azul profundo
+    // medidos punto por punto de la referencia de Kid (17-oct-2026): cian puro → azul rey → marino casi negro
+    dia: ['#88dffd', '#3ba8ec', '#1d6fd6', '#112a8a'],
+    orilla: '#8f86e6',                                           // el toque lila de la orilla de abajo
     noche: ['#5f86d8', '#2a4fb0', '#16267a', '#0d1650'],        // la misma almohada, de noche
-    orbe: ['#bff2ff', '#46b8ff', '#2349d6'],
+    orbe: ['#8ff0ff', '#00c2ee', '#0a63d8'],                    // resplandor cian de la referencia
     avatarVacio: '#c7d6ee',
     llamar: 'linear-gradient(160deg,#4a8cff 0%,#1f4fd0 100%)', colgar: 'linear-gradient(160deg,#ff9a62 0%,#ef4b4b 100%)',
   },
