@@ -15,7 +15,7 @@ export default {
   horasDia: [7, 18],                     // de 7 de la mañana a 6 de la tarde, cielo de día; después, noche con estrellas
   idiomaPrincipal: 'es',
   silencioColgar: 40,
-  avatar: { tipo: 'orbe' },              // pieza enchufable: { tipo: 'capas', base, boca0..boca3, parpadeo } cuando exista el dibujo
+  avatar: { tipo: 'capas', base: 'img/avatar/base.webp' },   // pieza enchufable (demo barato del modo avatar; la versión final es Spatius + LiveKit): base + boca1..boca3 + parpadeo
   colores: {
     fondo: '#f2f4f7', boton: '#e6e9ee', icono: '#3a4658', tintaDia: '#0f2a5a',
     // medidos punto por punto de la referencia de Kid (17-oct-2026): cian puro → azul rey → marino casi negro
