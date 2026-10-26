@@ -15,7 +15,9 @@ export default {
   horasDia: [7, 18],                     // de 7 de la mañana a 6 de la tarde, cielo de día; después, noche con estrellas
   idiomaPrincipal: 'es',
   silencioColgar: 40,
-  avatar: { tipo: 'capas', base: 'img/avatar/base.webp' },   // pieza enchufable (demo barato del modo avatar; la versión final es Spatius + LiveKit): base + boca1..boca3 + parpadeo
+  // AVATAR EN VIVO (Kid, 26-oct-2026): Nadia, de la biblioteca de Spatius (la más parecida a la foto de Luna).
+  // Fondo = el color del fondo de su foto. Mientras se aprueba, solo se ve con ?avatar=vivo; paraTodos: true lo abre a todos.
+  avatar: { tipo: 'spatius', id: '9078fde3-8e55-4311-a8d6-7740185b5b0d', fondo: 'radial-gradient(80% 60% at 50% 30%,#fdf0e2,#ecd9c4)', base: 'img/avatar/base.webp', paraTodos: false },
   colores: {
     fondo: '#f2f4f7', boton: '#e6e9ee', icono: '#3a4658', tintaDia: '#0f2a5a',
     // medidos punto por punto de la referencia de Kid (17-oct-2026): cian puro → azul rey → marino casi negro
