@@ -29,7 +29,9 @@ export default {
     llamar: 'linear-gradient(160deg,#4a8cff 0%,#1f4fd0 100%)', colgar: 'linear-gradient(160deg,#ff9a62 0%,#ef4b4b 100%)',
   },
 
-  // Tarjetas eco: suben cuando Luna nombra el lugar. `nombres` = otras formas en que se dice.
+  // Tarjetas eco: suben cuando Luna nombra el lugar. `nombres` = su nombre propio en otras formas (siempre la sacan).
+  // `temas` = palabras comunes: solo la sacan si el huésped también habló de eso (llamada de Kid, 26-oct-2026).
+  // `exactos` = nombres que cuentan solo con sus mayúsculas ("O Spa"; "masaje o spa" es otra cosa).
   tarjetas: [
     { id: 'trattoria', titulo: 'La Trattoria', nombres: ['trattoria'], tono: '#1f3a6e',
       datos: { es: ['Cena', 'Risotto de trufa', 'Chef Christian Ihuit', 'Reserva en la app'], en: ['Dinner', 'Truffle risotto', 'Chef Christian Ihuit', 'Book in the app'] },
@@ -55,19 +57,19 @@ export default {
       datos: { es: ['Tandoor', 'Biryani', 'Muchas opciones vegetarianas', 'Chef Juan Aparicio'], en: ['Tandoor', 'Biryani', 'Many vegetarian options', 'Chef Juan Aparicio'] },
       linea: { es: 'Cocina de la India, del tandoor a los curries.', en: 'Indian cuisine, from the tandoor to curries.' },
       pregunta: { es: 'Cuéntame más de Agra', en: 'Tell me more about Agra' } },
-    { id: 'spa', titulo: 'O Spa', nombres: ['o spa', 'spa', 'masaje', 'massage'], tono: '#2f5e55',
+    { id: 'spa', titulo: 'O Spa', exactos: ['O Spa'], temas: ['spa', 'masaje', 'masajes', 'massage'], tono: '#2f5e55',
       datos: { es: ['Masaje de 80 minutos', 'Hidroterapia', 'Reserva con el concierge'], en: ['80-minute massage', 'Hydrotherapy', 'Book with the concierge'] },
       linea: { es: 'Masajes, faciales e hidroterapia.', en: 'Massages, facials and hydrotherapy.' },
       pregunta: { es: 'Cuéntame más del spa', en: 'Tell me more about the spa' } },
-    { id: 'albercas', titulo: { es: 'Albercas y playa', en: 'Pools & beach' }, nombres: ['alberca', 'albercas', 'pool', 'pools', 'playa'], tono: '#1b6f8a',
+    { id: 'albercas', titulo: { es: 'Albercas y playa', en: 'Pools & beach' }, nombres: [], temas: ['alberca', 'albercas', 'pool', 'pools', 'playa', 'beach'], tono: '#1b6f8a',
       datos: { es: ['7 am a 7 pm', '28 a 30 °C en invierno', 'Albercas para niños'], en: ['7 am to 7 pm', '28–30 °C in winter', 'Kids pools'] },
       linea: { es: 'De 7 de la mañana a 7 de la noche, climatizadas en invierno.', en: 'From 7 am to 7 pm, heated in winter.' },
       pregunta: { es: '¿Qué más hay en las albercas?', en: 'What else is there at the pools?' } },
-    { id: 'playroom', titulo: 'The Playroom', nombres: ['playroom', 'club de ninos', 'kids club'], tono: '#6b4fa0',
+    { id: 'playroom', titulo: 'The Playroom', nombres: ['playroom'], temas: ['club de ninos', 'kids club'], tono: '#6b4fa0',
       datos: { es: ['Desde 4 años', 'Mini cine', 'Draw Alive', 'Minigolf en The Dreamery'], en: ['From age 4', 'Mini cinema', 'Draw Alive', 'Mini golf at The Dreamery'] },
       linea: { es: 'Club de niños desde los 4 años, con mini cine.', en: 'Kids club from age 4, with a mini cinema.' },
       pregunta: { es: '¿Qué hay para niños?', en: 'What is there for kids?' } },
-    { id: 'golf', titulo: { es: 'Golf Jack Nicklaus', en: 'Jack Nicklaus Golf' }, nombres: ['golf', 'nicklaus'], tono: '#2e5b34',
+    { id: 'golf', titulo: { es: 'Golf Jack Nicklaus', en: 'Jack Nicklaus Golf' }, nombres: ['nicklaus'], temas: ['golf'], tono: '#2e5b34',
       datos: { es: ['27 hoyos', 'Golf Academy', 'Paquete Stay & Play'], en: ['27 holes', 'Golf Academy', 'Stay & Play package'] },
       linea: { es: 'Campo Signature de 27 hoyos y academia.', en: '27-hole Signature course and academy.' },
       pregunta: { es: 'Cuéntame del golf', en: 'Tell me about golf' } },
@@ -83,7 +85,7 @@ export default {
       datos: { es: ['1984: Beach Palace', '1996: Moon Palace', '100% familiar', 'Más de 14,000 colaboradores'], en: ['1984: Beach Palace', '1996: Moon Palace', '100% family-owned', '14,000+ team members'] },
       linea: { es: 'Una familia, un sueño en Cancún y una luna que nació en 1996.', en: 'A family, a dream in Cancun, and a moon born in 1996.' },
       pregunta: { es: 'Cuéntame la historia de Moon Palace', en: 'Tell me the story of Moon Palace' } },
-    { id: 'salud', titulo: { es: 'Salud', en: 'Health' }, nombres: ['galenia', 'hospiten', 'amerimed', 'hospital'], tono: '#2b4f73',
+    { id: 'salud', titulo: { es: 'Salud', en: 'Health' }, nombres: ['galenia', 'hospiten', 'amerimed'], temas: ['hospital'], tono: '#2b4f73',
       datos: { es: ['Médico 24 h en el resort', 'Galenia 998 891 5200', 'Emergencias: 911'], en: ['24h doctor on site', 'Galenia 998 891 5200', 'Emergency: 911'] },
       linea: { es: 'Médico 24 horas en el resort y hospitales con urgencias en Cancún.', en: '24-hour doctor on site and ER hospitals in Cancun.' } },
   ],
