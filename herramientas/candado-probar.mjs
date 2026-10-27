@@ -19,6 +19,12 @@ const falla = (m) => { console.error(`✘ CANDADO PROBAR (${marca}): ${m}\n  No 
   const todos = (d) => { try { return readdirSync(d).flatMap((f) => { const r = d + '/' + f; return statSync(r).isDirectory() ? todos(r) : [r]; }); } catch (e) { return []; } };
   const conHueco = todos('publico').filter((f) => /\.(js|html)$/.test(f) && readFileSync(f, 'utf8').includes('PENDIENTE:'));
   if (conHueco.length) falla('la página trae datos "PENDIENTE:" sin llenar (' + conHueco.join(', ') + '). Se llenan con el formulario de alta del cliente.'); }
+// la página tiene que estar armada con una plantilla publicada y limpia (lo escribe build.mjs; lo revisa antes el gancho
+// pre-push con herramientas/candado-plantilla.mjs, que además la arma de nuevo y la compara)
+{ const { readFileSync, existsSync } = await import('node:fs');
+  const log = existsSync('publico/build-log.txt') ? readFileSync('publico/build-log.txt', 'utf8') : '';
+  const m = /^plantilla (\S+) (.+)$/m.exec(log);
+  if (m && m[2] !== 'limpia') falla('la página se armó con una plantilla con cambios sin subir (' + m[1].slice(0, 7) + '): ármala con la plantilla publicada.'); }
 const nt = Object.keys(process.env).find((k) => k === 'BLOB_READ_WRITE_TOKEN') || Object.keys(process.env).find((k) => /READ_WRITE_TOKEN$/.test(k));
 const oidc = !nt && process.env.BLOB_STORE_ID && process.env.VERCEL_OIDC_TOKEN;
 if (!nt && !oidc) falla('el proyecto no tiene base de reportes (Vercel Blob). Crearla y conectarla al proyecto.');

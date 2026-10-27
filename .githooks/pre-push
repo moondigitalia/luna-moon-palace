@@ -1,0 +1,3 @@
+#!/bin/sh
+# candado: no sube una página armada con una plantilla vieja o con cambios sin subir
+node herramientas/candado-plantilla.mjs pagina publico || exit 1
