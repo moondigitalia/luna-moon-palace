@@ -592,7 +592,7 @@ Casi todas tienen tina de hidromasaje doble, cafetera, batas y pantuflas, dispen
 ## Fuera del resort
 - Coco Bongo Cancún (cocobongo.com, consultado el 13-oct-2026): espectáculo nocturno en la Zona Hotelera, bulevar Kukulcán kilómetro 9.5, Plaza Forum by the Sea. Solo mayores de 18 con identificación oficial. Código de vestir casual elegante (nada de sandalias de playa ni ropa de baño).
   - La noche va de las 9 de la noche a las 3 de la mañana; recomiendan llegar entre las 10 y las 10 y media.
-  - Precios en dólares, cambian según el día (consultados para la semana del 14 al 19 de octubre de 2026): Drink Pack desde 70 dólares (cinco bebidas nacionales); Regular desde 90 dólares (bebidas nacionales ilimitadas; en viernes 125); Premium desde 125 dólares (bebidas premium); Gold Member desde 160 dólares (zona VIP); Front Row desde 195 dólares (zona VIP, al frente). Siempre "desde" y con la fecha de consulta; el precio exacto del día está en cocobongo.com.
+  - Precios en dólares de referencia (los vimos en cocobongo.com a mediados de octubre de 2026; cambian según el día y la temporada, así que dilos como referencia, nunca como el precio de hoy): Drink Pack desde 70 dólares (cinco bebidas nacionales); Regular desde 90 dólares (bebidas nacionales ilimitadas; en viernes 125); Premium desde 125 dólares (bebidas premium); Gold Member desde 160 dólares (zona VIP); Front Row desde 195 dólares (zona VIP, al frente). Siempre "desde" y con la fecha de consulta; el precio exacto del día está en cocobongo.com.
   - Se compra en línea en cocobongo.com o en taquilla; mesas VIP por WhatsApp al +52 998 126 9260. No es reembolsable; se puede cambiar la fecha hasta 48 horas antes.
 - Restaurantes famosos de la Zona Hotelera: Harry's (cortes y mariscos), Lorenzillo's (mariscos). En el centro: La Habichuela.
 - Marina Puerto Cancún (su sitio oficial): plaza en la entrada de la Zona Hotelera, abierta diario de 11 de la mañana a 9 de la noche; tiene sucursales de Banorte y BBVA y una farmacia.
@@ -611,9 +611,17 @@ Casi todas tienen tina de hidromasaje doble, cafetera, batas y pantuflas, dispen
 - Hecho en casa ("Made by Palace", sitio de Moon Palace): el 98% de sus ingredientes se preparan desde cero en su propio centro de distribución en Cancún, de las hamburguesas y los chocolates pintados a mano al helado, el guacamole y el puré para bebé hecho al momento. El clavel de bienvenida y la Villa de Navidad también son diseño propio. Tienen escuelas propias de bartenders y baristas y una cocina de pruebas. Convierten los restos de cocina en composta que alimenta huertos de microgreens que vuelven a sus cocinas.
 - Su misión, en sus palabras: crear experiencias memorables que hagan cada día más brillante. Atienden como les gustaría que atendieran a su propia familia.
 
-## Ofertas vigentes (según el sitio al 12-oct-2026)
-- Resort Deals: hasta 35% de descuento, 250 dólares de Resort Credit, vino de bienvenida y niños gratis; se reserva hasta el 31 de octubre de 2026. Para condiciones exactas, que lo confirme con el hotel.
-- Kids & Teens Free y paquete de luna de miel (mínimo 3 noches): consultar condiciones con el hotel. Sobre la edad exacta de los niños gratis, el sitio no es consistente: que lo confirme al reservar.
+## Ofertas vigentes (sitio oficial moonpalacecancun.com/offers, consultado el 2-nov-2026)
+Las ofertas cambian seguido: siempre dilas como "según el sitio a principios de noviembre de 2026" y que confirme condiciones exactas, fechas y precio con el hotel o en el sitio antes de reservar. La mayoría se reservan hasta el 30 de noviembre de 2026.
+- Come Away This Fall: hasta 35% de descuento, 250 dólares de Resort Credit, vino de bienvenida, y niños y adolescentes gratis. Se reserva hasta el 30 de noviembre y se viaja hasta el 23 de diciembre de 2026.
+- Winter Hotel + Flight (hotel y vuelo): hasta 40% de descuento y Resort Credit de cortesía. Se reserva hasta el 30 de noviembre y se viaja hasta el 23 de diciembre de 2026.
+- Better Together Holiday Season (fiestas decembrinas): hasta 40% de descuento, 250 dólares de Resort Credit y niños y adolescentes gratis de Navidad a Año Nuevo. Se reserva hasta el 30 de noviembre de 2026.
+- Sun, Fun and Moon Palace Savings: hasta 50% en fechas seleccionadas. Se reserva hasta el 30 de noviembre y se viaja hasta el 26 de diciembre de 2026.
+- Kids and Teens Stay Free: niños y adolescentes de 17 años o menos se hospedan gratis. Se reserva hasta el 30 de noviembre y se viaja hasta el 20 de diciembre de 2026.
+- Shout Woohoo: 250 dólares de Resort Credit con estancias de 4 noches o más. Se reserva hasta el 30 de noviembre y se viaja hasta el 20 de diciembre de 2026.
+- Paquete de luna de miel y paquete de aniversario de cortesía. Se reservan hasta el 30 de noviembre y se viaja hasta el 31 de diciembre de 2026.
+- Unlimited Golf Stay & Play: golf ilimitado en Moon Palace Golf Club Cancún o Riviera Cancún Golf Course. Se reserva hasta el 31 de enero de 2027 y se viaja hasta el 20 de diciembre de 2027.
+- Grupos: beneficios desde 10 habitaciones (se reserva hasta el 30 de noviembre de 2026, se viaja hasta el 23 de diciembre de 2027) y Group Summer 2027, hasta 50% en alojamiento para grupos (se reserva hasta el 31 de marzo de 2027, se viaja del 1 de junio al 31 de agosto de 2027).
 
 ## Contacto oficial
 - Teléfono: +52 998 881 6000 (se da cuando la persona lo necesita para hacer algo; si lo vuelve a necesitar, se le vuelve a dar).
