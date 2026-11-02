@@ -23,7 +23,7 @@ module.exports = {
   ejemploDosTemas: '¿qué incluye el todo incluido y a qué hora abre la alberca?',
   ejemploVariasCosas: '"¿qué restaurantes hay?" o "¿qué actividades hay para niños?"',
   ejemploBloqueGrande: 'la lista completa de restaurantes o de tours',
-  ejemploRespuestaCorta: 'Hay doce restaurantes: mexicanos, italianos, asiático, indio, una churrasquería, mariscos y parrilla junto al mar. ¿Busca algo romántico, familiar o de mariscos?',
+  ejemploRespuestaCorta: 'Hay diecisiete restaurantes, entre mexicanos, italianos, asiático, indio, una churrasquería, mariscos y opciones informales. ¿Busca algo romántico, familiar o de mariscos?',
   ejemploAsesoria: '(por ejemplo, requisitos de entrada a México o impuestos)',
   ejemploPortales: '(la app Palace Resorts o el sitio de reservaciones)',
   ejemploHorarioContacto: '',
