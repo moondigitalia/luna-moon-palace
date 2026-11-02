@@ -15,6 +15,9 @@ export default {
   horasDia: [7, 18],                     // de 7 de la mañana a 6 de la tarde, cielo de día; después, noche con estrellas
   idiomaPrincipal: 'es',
   silencioColgar: 40,
+  // PRESENTACIÓN A LOS DIRECTORES (Kid, pedido del 23-oct; hecho 2-nov-2026): el botón "Probar" no se ve. Los reportes
+  // siguen llegando solos al colgar y al salir; Kid lo ve con el mismo link terminado en ?probar=1
+  botonProbar: false,
   // AVATAR EN VIVO (Kid, 26-oct-2026): Nadia, de la biblioteca de Spatius (la más parecida a la foto de Luna).
   // Fondo = el color del fondo de su foto. Cartel = Nadia en foto fija, sacada de su primer cuadro (se ve desde el primer instante). Con ?avatar=foto se ve la foto fija.
   avatar: { tipo: 'spatius', id: '9078fde3-8e55-4311-a8d6-7740185b5b0d', cartel: 'img/avatar/nadia.webp', fondo: 'radial-gradient(80% 60% at 50% 30%,#fdf0e2,#ecd9c4)', base: 'img/avatar/base.webp', paraTodos: true },
