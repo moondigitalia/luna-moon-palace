@@ -20,6 +20,9 @@ export default {
   botonProbar: false,
   // AVATAR EN VIVO (Kid, 26-oct-2026): Nadia, de la biblioteca de Spatius (la más parecida a la foto de Luna).
   // Fondo = el color del fondo de su foto. Cartel = Nadia en foto fija, sacada de su primer cuadro (se ve desde el primer instante). Con ?avatar=foto se ve la foto fija.
+  // ENTRADA (Kid, 2-nov-2026: "como la de Quali"): "Toque para iniciar" con el logo de Moon Palace respirando. Logo tomado
+  // del sitio oficial (moonpalacecancun.com, 2-nov-2026); sonidos de entrada, llamar y colgar: los mismos de Quali (Kid lo pidió).
+  inicio: { logo: 'img/entrada/logo.svg', sonidos: { entrada: 'img/entrada/sonido.mp3', llamar: 'img/entrada/llamar.mp3', colgar: 'img/entrada/colgar.mp3' } },
   avatar: { tipo: 'spatius', id: '9078fde3-8e55-4311-a8d6-7740185b5b0d', cartel: 'img/avatar/nadia.webp', fondo: 'radial-gradient(80% 60% at 50% 30%,#fdf0e2,#ecd9c4)', base: 'img/avatar/base.webp', paraTodos: true },
   colores: {
     fondo: '#f2f4f7', boton: '#e6e9ee', icono: '#3a4658', tintaDia: '#0f2a5a',
@@ -69,8 +72,8 @@ export default {
       linea: { es: 'De 7 de la mañana a 7 de la noche, climatizadas en invierno.', en: 'From 7 am to 7 pm, heated in winter.' },
       pregunta: { es: '¿Qué más hay en las albercas?', en: 'What else is there at the pools?' } },
     { id: 'playroom', titulo: 'The Playroom', nombres: ['playroom'], temas: ['club de ninos', 'kids club'], tono: '#6b4fa0',
-      datos: { es: ['Desde 4 años', 'Mini cine', 'Draw Alive', 'Minigolf en The Dreamery'], en: ['From age 4', 'Mini cinema', 'Draw Alive', 'Mini golf at The Dreamery'] },
-      linea: { es: 'Club de niños desde los 4 años, con mini cine.', en: 'Kids club from age 4, with a mini cinema.' },
+      datos: { es: ['De 4 a 12 años', '9 am a 10 pm', 'Mini cine', 'Minigolf en The Dreamery'], en: ['Ages 4 to 12', '9 am to 10 pm', 'Mini cinema', 'Mini golf at The Dreamery'] },
+      linea: { es: 'Club de niños de 4 a 12 años, con comida incluida.', en: 'Kids club for ages 4 to 12, meals included.' },
       pregunta: { es: '¿Qué hay para niños?', en: 'What is there for kids?' } },
     { id: 'golf', titulo: { es: 'Golf Jack Nicklaus', en: 'Jack Nicklaus Golf' }, nombres: ['nicklaus'], temas: ['golf'], tono: '#2e5b34',
       datos: { es: ['27 hoyos', 'Golf Academy', 'Paquete Stay & Play'], en: ['27 holes', 'Golf Academy', 'Stay & Play package'] },
@@ -100,7 +103,7 @@ export default {
       holaVoz: 'Bienvenido a Moon Palace Cancún. Soy Luna, su concierge. ¿Con quién tengo el gusto?',
       holaNombre: (n) => `${n}, qué gusto escucharle. ¿En qué puedo servirle?`,
       sugerencias: ['Una cena romántica', '¿Qué hay para niños?', 'Cuéntame su historia'],
-      conectando: 'Conectando…', avatar: 'Hablar con el avatar', verLuz: 'Ver la luz',
+      conectando: 'Conectando…', conectandoCon: 'Conectando con Luna', casi: 'Un momento más…', tocar: 'Toque para iniciar', avatar: 'Hablar con el avatar', verLuz: 'Ver la luz',
       escribe: 'Escriba su pregunta', enviar: 'Enviar', llamar: 'Llamar a Luna', colgar: 'Terminar llamada', idioma: 'Cambiar idioma',
       micApagar: 'Silenciar micrófono', micPrender: 'Activar micrófono', cerrar: 'Cerrar', masDe: 'Saber más', probar: 'Probar', probarListo: 'Reporte enviado',
       error: 'Se perdió la señal un momento. ¿Me lo repite, por favor?', micNo: 'Para hablar con Luna se necesita el micrófono. Mientras, aquí puede escribirle.',
@@ -112,7 +115,7 @@ export default {
       holaVoz: 'Welcome to Moon Palace Cancún. I’m Luna, your concierge. Who do I have the pleasure of speaking with?',
       holaNombre: (n) => `${n}, lovely to hear from you. How may I help?`,
       sugerencias: ['A romantic dinner', 'What is there for kids?', 'Tell me your story'],
-      conectando: 'Connecting…', avatar: 'Talk to the avatar', verLuz: 'Show the light',
+      conectando: 'Connecting…', conectandoCon: 'Connecting with Luna', casi: 'Just a moment…', tocar: 'Tap to begin', avatar: 'Talk to the avatar', verLuz: 'Show the light',
       escribe: 'Type your question', enviar: 'Send', llamar: 'Call Luna', colgar: 'End call', idioma: 'Change language',
       micApagar: 'Mute microphone', micPrender: 'Unmute microphone', cerrar: 'Close', masDe: 'Learn more', probar: 'Test', probarListo: 'Report sent',
       error: 'The signal dropped for a moment. Could you say that again, please?', micNo: 'Luna needs your microphone to talk. Meanwhile, you can type here.',
