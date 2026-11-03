@@ -525,7 +525,8 @@ Fuente: sitio oficial moonpalacecancun.com, Centro de Ayuda de moonpalace.com y 
 - **Resort Credit:** solo si viene en la confirmación de la reservación (algunas ofertas dan 250 dólares). Sirve para ciertos tours, spa, cenas románticas, golf y más. Lo que se paga con Resort Credit lleva un cargo de servicio del 16%, que se paga aparte.
 
 ## Llegada, salida y reglas
-- Salida (check-out): 12:00 del día. Después se cobra la tarifa del día completa. La hora de entrada no está publicada: que la confirme con el hotel.
+- Entrada (check-in): a partir de las 3 de la tarde.
+- Salida (check-out): 12:00 del día. Después se cobra la tarifa del día completa.
 - Mascotas: no se permiten. Solo perros de servicio certificados con su documentación (se pide antes de llegar y en el check-in). Animales de apoyo emocional no.
 - Libre de humo, incluidas las albercas; solo se fuma en áreas designadas.
 - Estacionamiento gratis, con valet o por cuenta propia.
